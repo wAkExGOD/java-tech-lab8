@@ -12,7 +12,11 @@ public class Main {
         // Test Log4j2:
         logger.info("Start program...");
 
-        WordCounter.execute();
+        // Task A:
+        // WordCounter.execute();
+
+        // Task B:
+        Medications.execute();
 
         // Test Log4j2:
         logger.info("End program.");
