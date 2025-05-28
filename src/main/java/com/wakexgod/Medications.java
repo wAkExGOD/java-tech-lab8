@@ -14,11 +14,6 @@ interface Medication {
     String getDetails();
 }
 
-// Интерфейс для расчета дозировки
-interface DosageCalculator {
-    double calculate(double weight, double concentration);
-}
-
 // Класс для действующего вещества
 class Substance implements ActiveIngredient {
     private String name;

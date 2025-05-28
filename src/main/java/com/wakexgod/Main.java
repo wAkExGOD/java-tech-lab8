@@ -16,7 +16,10 @@ public class Main {
         // WordCounter.execute();
 
         // Task B:
-        Medications.execute();
+        // Medications.execute();
+
+        // Task C:
+        Ships.execute();
 
         // Test Log4j2:
         logger.info("End program.");
